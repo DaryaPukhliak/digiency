@@ -1,0 +1,228 @@
+@import "./components/fonts";
+
+@mixin txt_title {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+@mixin txt_h2 {
+  text-align: center;
+  font-family: "WorkSans-SemiBold";
+  font-size: 39.06px;
+  line-height: 1.23;
+}
+
+.section__work {
+  &--txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      @include txt_title();
+      padding-bottom: 25px;
+    }
+    h2 {
+      @include txt_h2();
+      padding-bottom: 25px;
+    }
+  }
+  &--nav {
+    ul {
+      display: flex;
+      gap: 45px;
+      justify-content: center;
+      padding-bottom: 60px;
+    }
+    li {
+      list-style-type: none;
+
+      a {
+        font-family: "WorkSans-Medium";
+        font-size: 20px;
+        line-height: 1.23;
+        color: #7b7b7b;
+        transition: all 0.3s ease;
+        &:hover {
+          color: #ff5300;
+        }
+      }
+    }
+  }
+  &--imgwrap {
+    display: flex;
+    padding-bottom: 125px;
+  }
+  @media (max-width: 1024px) {
+    &--txt {
+      padding: 50px 0;
+    }
+    &--imgwrap {
+      flex-direction: column;
+    }
+  }
+}
+.section__feedback {
+  background: #fff7f4;
+  &--txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    p {
+      @include txt_title();
+      padding-bottom: 25px;
+    }
+    h2 {
+      @include txt_h2();
+      padding-bottom: 25px;
+    }
+  }
+  &--blocks {
+    display: flex;
+    gap: 190px;
+    padding-left: 50px;
+  }
+  &--item {
+    background: #ff5300;
+    padding: 35px 35px 25px 65px;
+    position: relative;
+    h3 {
+      font-family: "WorkSans-Medium";
+      font-size: 25px;
+      line-height: 1.23;
+      font-weight: 500;
+      color: #ffffff;
+      padding-bottom: 10px;
+    }
+    p {
+      font-family: "WorkSans-Regular";
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #ffffff;
+      &:first-of-type {
+        padding-bottom: 25px;
+      }
+    }
+    img {
+      position: absolute;
+      transform: translateX(-105px);
+    }
+  }
+  &--footer {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+    li {
+      list-style-type: none;
+      height: 15px;
+      width: 15px;
+      max-width: 50px;
+      border-radius: 50%;
+      flex: 0 1 auto;
+      transition: all 0.3s ease;
+      &:hover {
+        flex-grow: 2;
+        border-radius: 7.5px;
+      }
+      &:nth-child(1) {
+        background: #ff5300;
+      }
+      &:nth-child(2) {
+        background: #373737;
+      }
+      &:nth-child(3) {
+        background: #7b7b7b;
+      }
+    }
+  }
+}
+.section__contact {
+  background: #fff;
+  &--txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    p {
+      @include txt_title();
+      padding-bottom: 25px;
+    }
+    h2 {
+      @include txt_h2();
+    }
+  }
+  &--blocks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  &--block {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    padding: 18px 0 24px 18px;
+  }
+  &--item {
+    display: flex;
+    gap: 18px;
+    padding-bottom: 36px;
+    h4 {
+      font-family: "WorkSans-Medium";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 1.23;
+      color: #ff5300;
+      padding-bottom: 10px;
+    }
+    h3 {
+      font-family: "WorkSans-SemiBold";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 31.25px;
+      line-height: 1.23;
+      color: #373737;
+    }
+  }
+  &--img {
+    img {
+      background: #ff5300;
+      padding: 22px;
+      border-radius: 50%;
+    }
+  }
+  &--title {
+    display: flex;
+    flex-direction: column;
+  }
+  &--link {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-family: "WorkSans-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.23;
+    color: #7b7b7b;
+    a {
+      font-family: "WorkSans-Medium";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.23;
+      color: #7b7b7b;
+    }
+  }
+  &--link2 {
+    display: flex;
+    gap: 18px;
+    p {
+      color: #ff5300;
+    }
+  }
+}
