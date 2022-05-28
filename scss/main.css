@@ -18,6 +18,43 @@
   src: url(../fonts/WorkSans-SemiBold.woff) format("woff"), url(../fonts/WorkSans-SemiBold.woff2) format("woff2");
 }
 
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px 18px;
+}
+
+.form--item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(50% - 10px);
+          flex: 0 1 calc(50% - 10px);
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form--item input,
+.form--item textarea {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  font-family: "WorkSans-Medium";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7b7b7b;
+}
+
+.form--item--textarea {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+
 .section__work--txt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,6 +293,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
+  padding-bottom: 60px;
 }
 
 .section__contact--block {
@@ -345,5 +383,20 @@
 
 .section__contact--link2 p {
   color: #ff5300;
+}
+
+.section__contact--formwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.section__contact--formwrap h2 {
+  padding-bottom: 18px;
+  font-family: "WorkSans-SemiBold";
+  font-size: 31.25px;
+  line-height: 123.6%;
 }
 /*# sourceMappingURL=main.css.map */
