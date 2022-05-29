@@ -403,4 +403,14 @@
 .section__cart {
   margin-bottom: 125px;
 }
+
+.section__imglogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 125px;
+}
 /*# sourceMappingURL=main.css.map */
