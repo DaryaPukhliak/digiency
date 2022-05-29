@@ -413,4 +413,38 @@
           justify-content: space-between;
   padding-bottom: 125px;
 }
+
+.footer {
+  background: #373737;
+  padding-top: 66px;
+}
+
+.footer--main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 37px;
+}
+
+.footer--logo img {
+  padding-bottom: 25px;
+}
+
+.footblock {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footblock h2 {
+  font-family: "WorkSans-SemiBold";
+  font-size: 39.06px;
+  line-height: 123.6%;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.footblock p {
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */

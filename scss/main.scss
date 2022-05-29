@@ -247,3 +247,29 @@
   justify-content: space-between;
   padding-bottom: 125px;
 }
+.footer {
+  background: #373737;
+  padding-top: 66px;
+  &--main {
+    display: flex;
+    gap: 37px;
+  }
+  &--logo {
+    img {
+      padding-bottom: 25px;
+    }
+  }
+}
+.footblock {
+  flex: 1;
+  h2 {
+    font-family: "WorkSans-SemiBold";
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: #fff;
+    padding-bottom: 25px;
+  }
+  p {
+    color: #fff;
+  }
+}
