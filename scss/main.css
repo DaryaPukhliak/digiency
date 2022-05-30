@@ -424,10 +424,131 @@
   display: -ms-flexbox;
   display: flex;
   gap: 37px;
+  padding-bottom: 60px;
+}
+
+.footer--logo p {
+  padding-bottom: 18px;
 }
 
 .footer--logo img {
+  padding-top: 8px;
   padding-bottom: 25px;
+}
+
+.footer--social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.footer--social a {
+  background: #ffffff;
+  padding: 10px;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer--social a:hover {
+  background: #ff5300;
+}
+
+.footer--social a:hover path {
+  fill: #fff;
+}
+
+.footer--nav li {
+  list-style-type: none;
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.footer--Newsletter p {
+  padding-bottom: 25px;
+}
+
+.footer--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer--form input {
+  padding: 18px;
+  background: #373737;
+  border: 1px solid #ff5300;
+}
+
+.footer--form input ::-webkit-input-placeholder {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+
+.footer--form input :-ms-input-placeholder {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+
+.footer--form input ::-ms-input-placeholder {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+
+.footer--form input ::placeholder {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+
+.footer--form button {
+  padding: 18px 30px;
+  border-radius: 0%;
+  font-size: 0%;
+}
+
+.footer--home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  background: #ff5300;
+}
+
+.footer--home--txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer--home--txt img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.footer--home--txt p {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+  color: #fff;
 }
 
 .footblock {
@@ -445,6 +566,10 @@
 }
 
 .footblock p {
+  font-family: "WorkSans-Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
