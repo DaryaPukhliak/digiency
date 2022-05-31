@@ -311,10 +311,12 @@
     }
   }
   &--home {
-    display: flex;
-    justify-content: space-between;
     padding: 20px;
     background: #ff5300;
+    &--main {
+      display: flex;
+      justify-content: space-between;
+    }
     &--txt {
       display: flex;
       img {

@@ -521,14 +521,17 @@
 }
 
 .footer--home {
+  padding: 20px;
+  background: #ff5300;
+}
+
+.footer--home--main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
-  background: #ff5300;
 }
 
 .footer--home--txt {
