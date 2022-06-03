@@ -384,7 +384,7 @@ span {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .section--team__item img {
   transition: all 0.3s ease;
@@ -419,11 +419,11 @@ span {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   transform: translateX(100%);
   transition: all 0.3s ease;
-  background: #ffffff;
+  background: #fff;
 }
-.section__team--social:hover {
-  transform: translateX(0%);
-}
+/* .section--team__item .section--team__social:hover {
+  transform: translateX(0);
+} */
 
 @media (max-width: 1024px) {
   .section--team__wrap {
