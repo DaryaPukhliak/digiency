@@ -2,13 +2,13 @@
 @import "./components/form";
 @import "./base/mixin";
 
-// .section--team__item {
-//   &:hover {
-//     .section--team__social {
-//       transform: translateX(0);
-//     }
-//   }
-// }
+.section--team__item {
+  &:hover {
+    .section__team--social {
+      transform: translateX(0);
+    }
+  }
+}
 .section__work {
   &--txt {
     display: flex;
@@ -281,6 +281,12 @@
       font-size: 31.25px;
       line-height: 123.6%;
     }
+  }
+  &--formimg {
+    flex: 1 0 40%;
+  }
+  &--formblock {
+    flex: 1 0 60%;
   }
 }
 .section__cart {

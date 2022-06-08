@@ -55,6 +55,11 @@
   margin-bottom: 29px;
 }
 
+.section--team__item:hover .section__team--social {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
 .section__work--txt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -457,6 +462,18 @@
   font-family: "WorkSans-SemiBold";
   font-size: 31.25px;
   line-height: 123.6%;
+}
+
+.section__contact--formimg {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 40%;
+          flex: 1 0 40%;
+}
+
+.section__contact--formblock {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 60%;
+          flex: 1 0 60%;
 }
 
 .section__cart {
