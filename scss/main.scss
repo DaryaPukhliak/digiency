@@ -516,7 +516,10 @@
       }
     }
     button {
-      padding: toRem(18) toRem(30);
+      width: toRem(60);
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 0%;
       font-size: 0%;
     }
