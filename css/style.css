@@ -103,6 +103,20 @@ span {
   color: #373737;
   font-family: "WorkSans-Medium";
 }
+@media (max-width: 1024px) {
+  .wrapper__header--nav a {
+    font-size: 0.8rem;
+  }
+  .wrapper__header--nav li {
+    padding-right: 0.8rem;
+  }
+  .wrapper__header--logo {
+    margin-right: 0.8rem;
+  }
+  .wrapper__header--button {
+    margin-left: 0;
+  }
+}
 .section__hero {
   background: #fff7f4;
   padding-bottom: 9.5rem;
@@ -159,6 +173,7 @@ span {
 @media (max-width: 1024px) {
   .section__hero {
     padding-bottom: 0;
+    padding-top: 0;
   }
   .section__hero--wrapper {
     flex-direction: column-reverse;
