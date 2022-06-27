@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 ul,
 li,
 a {
@@ -457,8 +460,13 @@ span {
   .section--team__wrap {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   .section--team__block {
     flex-direction: column;
+  }
   }
 }
